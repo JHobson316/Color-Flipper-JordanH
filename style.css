@@ -1,0 +1,11 @@
+body{
+    background-color: rgb(121, 145, 167);
+}
+#color-naming{
+    display: grid;
+    border-radius: 10px;
+    border: white solid 2px;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
