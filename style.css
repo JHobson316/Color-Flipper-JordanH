@@ -1,11 +1,27 @@
 body{
-    background-color: rgb(121, 145, 167);
+    height:100%;
+    background-size:cover;
+    background-color: rgb(255, 255, 255);
+    background-repeat: no-repeat;
 }
-#color-naming{
+#color-name{
     display: grid;
+    padding: 4px;
     border-radius: 10px;
     border: white solid 2px;
     justify-content: center;
     background-color: black;
     color: white;
+}
+#main-container{
+    display: grid;
+    justify-content: center;
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 15px;
+    width: fit-content;
+}
+#color-title{
+    display: grid;
+    justify-content: center;
 }
